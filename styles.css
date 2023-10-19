@@ -2,7 +2,6 @@
 
 #container {
     margin: 20px;
-    position: relative;
 }
 
 #container::before {
@@ -16,10 +15,3 @@
     font-size: 20px;
 }
 
-#container::before {
-    left: -60px;
-}
-
-#container::after {
-    right: -60px;
-}
